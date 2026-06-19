@@ -1,23 +1,13 @@
-# Sigma/Jello-inspired GitHub Pages layout
+# Sigma 2021 GitHub Pages Copy
 
-This is a clean static landing page inspired by the uploaded archived Sigma page layout.
+Upload everything in this folder to a GitHub Pages repository.
 
-## Files
+Files:
+- `index.html` — cleaned page based on the supplied 2021 archive HTML
+- `style.css` — recreated Sigma-style CSS using the same classes/section layout
+- `js/main.js` — smooth scroll, parallax/enter animations, particle background, modal close
+- `source-uploaded-2021.html` — untouched source HTML you pasted, kept for reference
 
-- `index.html` — all page sections and editable text
-- `css/style.css` — full responsive styling
-- `js/main.js` — particles, parallax, reveal animations, mobile nav, modals
-- `assets/` — original SVG placeholder art and icons
-- `.nojekyll` — keeps GitHub Pages from processing the site with Jekyll
-
-## How to publish on GitHub Pages
-
-1. Create a new GitHub repository.
-2. Upload everything in this folder to the repo root.
-3. Go to **Settings → Pages**.
-4. Set the branch to `main` and folder to `/root`.
-5. Save, then open the GitHub Pages URL.
-
-## Edit links
-
-Search for `href="#"` in `index.html` and replace placeholders with your own legitimate release links, Discord, GitHub, YouTube, etc.
+Notes:
+- The Wayback toolbar and tracking/beacon scripts were removed from the live page.
+- Image URLs are kept pointed at the Internet Archive 2021 image captures so the page visually matches without needing local asset downloads.
