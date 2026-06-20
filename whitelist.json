@@ -1,0 +1,14 @@
+{
+  "enabled": true,
+  "message": "whitelist failed",
+  "users": {
+    "11241745": {
+      "name": "jp1029",
+      "rank": "owner"
+    },
+    "3677798980": {
+      "name": "lilgohs2",
+      "rank": "premium"
+    }
+  }
+}
